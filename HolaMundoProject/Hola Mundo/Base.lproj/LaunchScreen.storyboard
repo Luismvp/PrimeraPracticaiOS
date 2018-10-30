@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8W-k3-bsh">
+                                <rect key="frame" x="98" y="77" width="178" height="44"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="IWEB 2018">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Charter-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practica 1 iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Mz-Lg-Bn6">
+                                <rect key="frame" x="134" y="129" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luis Martín de Vidales Palomero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqg-Ae-ZcH">
+                                <rect key="frame" x="65" y="158" width="245" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEM-se-16x">
+                                <rect key="frame" x="182" y="187" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verónica Santos Pulpón" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6Q-mD-CxF">
+                                <rect key="frame" x="96" y="216" width="182" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufE-2G-KfE">
+                                <rect key="frame" x="89" y="253" width="197" height="42"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hola mundo">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name=".SFNSText"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Mundo" translatesAutoresizingMaskIntoConstraints="NO" id="Cif-GZ-sJC">
+                                <rect key="frame" x="67" y="336" width="240" height="240"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ufE-2G-KfE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0wQ-Hs-mwj"/>
+                            <constraint firstItem="6Mz-Lg-Bn6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6Mr-L7-82w"/>
+                            <constraint firstItem="Cif-GZ-sJC" firstAttribute="top" secondItem="ufE-2G-KfE" secondAttribute="bottom" constant="41" id="8cl-zP-bvN"/>
+                            <constraint firstItem="dEM-se-16x" firstAttribute="top" secondItem="wqg-Ae-ZcH" secondAttribute="bottom" constant="8" id="9i6-qE-mUk"/>
+                            <constraint firstItem="g6Q-mD-CxF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ady-qE-7F7"/>
+                            <constraint firstItem="dEM-se-16x" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="E5h-bc-Fuv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cif-GZ-sJC" secondAttribute="bottom" constant="91" id="I9h-d0-4l8"/>
+                            <constraint firstItem="Q8W-k3-bsh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="If6-hp-3Nv"/>
+                            <constraint firstItem="6Mz-Lg-Bn6" firstAttribute="top" secondItem="Q8W-k3-bsh" secondAttribute="bottom" constant="8" id="QUA-V7-2MY"/>
+                            <constraint firstItem="ufE-2G-KfE" firstAttribute="top" secondItem="g6Q-mD-CxF" secondAttribute="bottom" constant="16" id="U3Q-Iv-c1e"/>
+                            <constraint firstItem="wqg-Ae-ZcH" firstAttribute="top" secondItem="6Mz-Lg-Bn6" secondAttribute="bottom" constant="8" id="XzD-NL-4Cm"/>
+                            <constraint firstItem="g6Q-mD-CxF" firstAttribute="top" secondItem="dEM-se-16x" secondAttribute="bottom" constant="8" id="e0s-ue-b2o"/>
+                            <constraint firstItem="wqg-Ae-ZcH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gJ9-HN-ZkX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cif-GZ-sJC" secondAttribute="trailing" constant="68" id="ka6-v2-yuY"/>
+                            <constraint firstItem="Q8W-k3-bsh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ofj-b7-JiP"/>
+                            <constraint firstItem="Cif-GZ-sJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="ye7-DT-Ljg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mundo" width="256" height="256"/>
+    </resources>
+</document>

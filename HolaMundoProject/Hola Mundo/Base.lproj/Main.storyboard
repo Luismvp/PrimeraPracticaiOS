@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hola_Mundo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hc5-Sg-s4o">
+                                <rect key="frame" x="45" y="107" width="31" height="31"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Hola">
+                                            <attributes>
+                                                <color key="NSColor" red="0.66078229870172323" green="0.011627867794698064" blue="0.94367308937823835" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Charter-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="updateHola:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDc-PT-9jb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1n-5r-QXi">
+                                <rect key="frame" x="283" y="106" width="47" height="31"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Mundo">
+                                            <attributes>
+                                                <color key="NSColor" red="0.66065797548726324" green="0.0" blue="0.90809180699481862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Charter-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="updateMundo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBa-kc-Dxy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi Primera Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VH-DG-sOC">
+                                <rect key="frame" x="48.666666666666657" y="63" width="277.66666666666674" height="44"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="36"/>
+                                <color key="textColor" red="0.71869581371339153" green="0.0" blue="0.87835977979274615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" translatesAutoresizingMaskIntoConstraints="NO" id="Dbq-um-Rt8">
+                                <rect key="frame" x="45" y="194" width="286" height="468"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMO-vl-GS3">
+                                <rect key="frame" x="142" y="107" width="92" height="31"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Puerta del Sol">
+                                            <attributes>
+                                                <color key="NSColor" red="0.59244062984663992" green="0.020792025072968914" blue="0.88157788212435229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Charter-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="updateSol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wg5-Mj-zWl"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qHc-rR-hBe">
+                                <rect key="frame" x="43" y="145" width="289" height="31"/>
+                                <connections>
+                                    <action selector="updateSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="yDM-9i-thQ"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97763622840356978" blue="0.67288437519578981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gMO-vl-GS3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DXf-R0-siu"/>
+                            <constraint firstItem="hc5-Sg-s4o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="HWG-Ne-WN0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1n-5r-QXi" secondAttribute="trailing" constant="45" id="MfT-fJ-b1s"/>
+                            <constraint firstItem="Dbq-um-Rt8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="Qwc-ol-DTO"/>
+                            <constraint firstItem="hc5-Sg-s4o" firstAttribute="top" secondItem="5VH-DG-sOC" secondAttribute="bottom" id="a6z-ap-hkS"/>
+                            <constraint firstItem="qHc-rR-hBe" firstAttribute="top" secondItem="gMO-vl-GS3" secondAttribute="bottom" constant="7" id="eC3-bl-DHz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dbq-um-Rt8" secondAttribute="trailing" constant="44" id="eqO-aH-9fh"/>
+                            <constraint firstItem="qHc-rR-hBe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="fLO-5P-Z6s"/>
+                            <constraint firstItem="r1n-5r-QXi" firstAttribute="top" secondItem="5VH-DG-sOC" secondAttribute="bottom" constant="-1" id="fZh-gf-2bf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dbq-um-Rt8" secondAttribute="bottom" constant="116" id="gLt-sa-0Ug"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qHc-rR-hBe" secondAttribute="trailing" constant="45" id="mDg-2q-tgK"/>
+                            <constraint firstItem="5VH-DG-sOC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="mgS-nW-wRP"/>
+                            <constraint firstItem="gMO-vl-GS3" firstAttribute="top" secondItem="5VH-DG-sOC" secondAttribute="bottom" id="tug-qc-Ydg"/>
+                            <constraint firstItem="Dbq-um-Rt8" firstAttribute="top" secondItem="qHc-rR-hBe" secondAttribute="bottom" constant="19" id="u1v-or-y4k"/>
+                            <constraint firstItem="5VH-DG-sOC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wiw-RT-LyT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Slider" destination="qHc-rR-hBe" id="mIO-pt-sVr"/>
+                        <outlet property="msgLabel" destination="5VH-DG-sOC" id="ofS-Bc-KJ6"/>
+                        <outlet property="telecoMap" destination="Dbq-um-Rt8" id="0A6-90-ege"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82.400000000000006" y="127.09359605911331"/>
+        </scene>
+    </scenes>
+</document>
